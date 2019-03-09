@@ -15,5 +15,5 @@ Datasets are linearly separable using all 30 input features:
 More info on the dataset: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html
 
 # Result
-As we can see from the confusion matrix in the 'Plots' folder, SVM was able to classify tumors into Malignant/benign with 97% accuracy. We can therefore conclude that this technique can rapidly evaluate breast masses and classify them in an automated fashion. However, we can further improve this model by combining Computer Vision to directly classify cancer using tissue images. 
+As we can see from the confusion matrix in the 'Plots' folder, SVM was able to classify tumors into Malignant/benign with 98% accuracy. Since we have zero Type-II errors, we can therefore conclude that this technique can rapidly evaluate breast masses and classify them in an automated fashion. However, we can further improve this model by combining Computer Vision to directly classify cancer using tissue images. 
 
