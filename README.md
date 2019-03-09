@@ -6,7 +6,7 @@ The dataset, which is from Scikit - Learn, contains real images indicating that 
 * Perimeter
 * Area
 * Smoothness  
-These features are feeded into our classifier. This will give us two target classes: malignant and benign, respectively. 
+These features are feeded into our classifier. This will give us two target classes: malignant (0) and benign (1), respectively. 
 Datasets are linearly separable using all 30 input features:
 * Number of Instances: 569
 * Class Distribution: 212 Malignant, 357 Benign
